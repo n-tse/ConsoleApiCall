@@ -8,7 +8,7 @@ namespace ApiTest
   {
     static void Main()
     {
-      var apiCallTask = ApiHelper.ApiCall("[YOUR-API-KEY-HERE]");
+      var apiCallTask = ApiHelper.ApiCall("addAPIkeyhere");
       var result = apiCallTask.Result;
       Console.WriteLine(result);
     }
