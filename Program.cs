@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
 using RestSharp;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace ApiTest
 {
@@ -10,7 +12,9 @@ namespace ApiTest
     {
       var apiCallTask = ApiHelper.ApiCall("addAPIkeyhere");
       var result = apiCallTask.Result;
-      Console.WriteLine(result);
+      
+      JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(result);
+      Console.WriteLine(jsonResponse["results"]);
     }
   }
 
