@@ -12,7 +12,7 @@ namespace ApiTest
     {
       var apiCallTask = ApiHelper.ApiCall("addAPIkeyhere");
       var result = apiCallTask.Result;
-      
+
       JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(result);
       Console.WriteLine(jsonResponse["results"]);
     }

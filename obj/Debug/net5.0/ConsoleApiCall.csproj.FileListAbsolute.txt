@@ -16,3 +16,4 @@ C:\Users\nicho\Desktop\Epicodus\C#\ConsoleApiCall\obj\Debug\net5.0\ConsoleApiCal
 C:\Users\nicho\Desktop\Epicodus\C#\ConsoleApiCall\obj\Debug\net5.0\ref\ConsoleApiCall.dll
 C:\Users\nicho\Desktop\Epicodus\C#\ConsoleApiCall\obj\Debug\net5.0\ConsoleApiCall.pdb
 C:\Users\nicho\Desktop\Epicodus\C#\ConsoleApiCall\obj\Debug\net5.0\ConsoleApiCall.genruntimeconfig.cache
+C:\Users\nicho\Desktop\Epicodus\C#\ConsoleApiCall\bin\Debug\net5.0\Newtonsoft.Json.dll
