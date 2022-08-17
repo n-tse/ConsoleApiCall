@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nicho\\Desktop\\Epicodus\\C#\\ConsoleApiCall\\ConsoleApiCall.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nicho\\Desktop\\Epicodus\\C#\\ConsoleApiCall\\ConsoleApiCall.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nicho\\Desktop\\Epicodus\\C#\\ConsoleApiCall\\ConsoleApiCall.csproj",
+        "projectName": "ConsoleApiCall",
+        "projectPath": "C:\\Users\\nicho\\Desktop\\Epicodus\\C#\\ConsoleApiCall\\ConsoleApiCall.csproj",
+        "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nicho\\Desktop\\Epicodus\\C#\\ConsoleApiCall\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nicho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

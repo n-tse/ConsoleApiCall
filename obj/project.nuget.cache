@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "K12LtF7zzjzTqZK/nWTxdu+IjKP6+32Eeua6ZJfGUCR8uWMAR2R6zZEjuLHGxsmm3BQEADqd3lIKST0OYQMnZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nicho\\Desktop\\Epicodus\\C#\\ConsoleApiCall\\ConsoleApiCall.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nicho\\.nuget\\packages\\restsharp\\106.6.10\\restsharp.106.6.10.nupkg.sha512"
+  ],
+  "logs": []
+}
