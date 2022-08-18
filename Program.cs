@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using RestSharp;
 using Newtonsoft.Json;
@@ -10,11 +11,20 @@ namespace ApiTest
   {
     static void Main()
     {
-      var apiCallTask = ApiHelper.ApiCall("addAPIkeyhere");
+      var apiCallTask = ApiHelper.ApiCall("VGNddPGdE9t1PgmkgvQZYMjJXbiq4CGH");
       var result = apiCallTask.Result;
 
       JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(result);
-      Console.WriteLine(jsonResponse["results"]);
+      List<Article> articleList = JsonConvert.DeserializeObject<List<Article>>(jsonResponse["results"].ToString());
+
+      foreach (Article article in articleList)
+      {
+        Console.WriteLine($"Section: {article.Section}");
+        Console.WriteLine($"Title: {article.Title}");
+        Console.WriteLine($"Abstract: {article.Abstract}");
+        Console.WriteLine($"Url: {article.Url}");
+        Console.WriteLine($"Byline: {article.Byline}");
+      }
     }
   }
 
